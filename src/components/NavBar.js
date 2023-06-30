@@ -16,7 +16,7 @@ const CustomLink = ({ href, title, className = "" }) => {
   };
 
   return (
-    <Link href={href} className={`${className} relative group`} onClick={handleClick} >
+    <Link passHref href={href} className={`${className} relative group`} onClick={handleClick} >
       {title}
 
       <span
@@ -41,7 +41,7 @@ const CustomMobileLink = ({ href, title, className = "", toggle }) => {
   };
 
   return (
-    <Link href={href} className={`${className} relative group text-light dark:text-dark my-2`} onClick={handleClick}>
+    <Link passHref href={href} className={`${className} relative group text-light dark:text-dark my-2`} onClick={handleClick}>
       {title}
 
       <span
@@ -79,38 +79,38 @@ const NavBar = () => {
 
       <div className="w-full flex justify-between items-center lg:hidden">
         <nav>
-          <CustomLink href="/" title={l.home} className="mr-4" />
-          <CustomLink href="/about" title={l.about} className="mx-4" />
-          <CustomLink href="/projects" title={l.projects} className="mx-4" />
+          <CustomLink passHref href="/" title={l.home} className="mr-4" />
+          <CustomLink passHref href="/about" title={l.about} className="mx-4" />
+          <CustomLink passHref href="/projects" title={l.projects} className="mx-4" />
           {/* <CustomLink href="/articles" title={l.articles} className="ml-4" /> */}
         </nav>
         
         <nav className="flex items-center justify-center flex-wrap">
-          {/* <motion.a href="https://twitter.com" target={"_blank"} className="w-6 mr-3"
+          {/* <motion.a href="https://twitter.com" target={"_blank"} rel="noreferrer" className="w-6 mr-3"
           whileHover={{y:-2}}
           whileTap={{scale:0.9}}
           >
             <TwitterIcon/>
           </motion.a> */}
-          <motion.a href="https://github.com/MauroDietze" target={"_blank"} className="w-6 mr-3"
+          <motion.a href="https://github.com/MauroDietze" target={"_blank"} rel="noreferrer" className="w-6 mr-3"
           whileHover={{y:-2}}
           whileTap={{scale:0.9}}
           >
             <GithubIcon/>
           </motion.a>
-          <motion.a href="https://www.linkedin.com/in/mauro-dietze/" target={"_blank"} className="w-6 mx-3"
+          <motion.a href="https://www.linkedin.com/in/mauro-dietze/" target={"_blank"} rel="noreferrer" className="w-6 mx-3"
           whileHover={{y:-2}}
           whileTap={{scale:0.9}}
           >
             <LinkedInIcon/>
           </motion.a>
-          {/* <motion.a href="https://pinterest.com" target={"_blank"} className="w-6 mx-3 dark:bg-light rounded-full"
+          {/* <motion.a href="https://pinterest.com" target={"_blank"} rel="noreferrer" className="w-6 mx-3 dark:bg-light rounded-full"
           whileHover={{y:-2}}
           whileTap={{scale:0.9}}
           >
             <PinterestIcon/>
           </motion.a> */}
-          {/* <motion.a href="https://dribble.com" target={"_blank"} className="w-6 ml-3"
+          {/* <motion.a href="https://dribble.com" target={"_blank"} rel="noreferrer" className="w-6 ml-3"
           whileHover={{y:-2}}
           whileTap={{scale:0.9}}
           >
@@ -136,38 +136,38 @@ const NavBar = () => {
         className="min-w-[70vw] flex flex-col justify-between z-30 items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 
         bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32">
           <nav className="flex items-center flex-col justify-center">
-            <CustomMobileLink href="/" title={l.home} className="" toggle={handleClick}/>
-            <CustomMobileLink href="/about" title={l.about} className="" toggle={handleClick}/>
-            <CustomMobileLink href="/projects" title={l.projects} className="" toggle={handleClick}/>
+            <CustomMobileLink passHref href="/" title={l.home} className="" toggle={handleClick}/>
+            <CustomMobileLink passHref href="/about" title={l.about} className="" toggle={handleClick}/>
+            <CustomMobileLink passHref href="/projects" title={l.projects} className="" toggle={handleClick}/>
             {/* <CustomMobileLink href="/articles" title={l.articles} className="" toggle={handleClick}/> */}
           </nav>
           
           <nav className="flex items-center justify-center flex-wrap mt-2">
-            {/* <motion.a href="https://twitter.com" target={"_blank"} className="w-6 mr-3 sm:mx-1"
+            {/* <motion.a href="https://twitter.com" target={"_blank"} rel="noreferrer" className="w-6 mr-3 sm:mx-1"
             whileHover={{y:-2}}
             whileTap={{scale:0.9}}
             >
               <TwitterIcon/>
             </motion.a> */}
-            <motion.a href="https://github.com/MauroDietze" target={"_blank"} className="w-6 mr-3 bg-light rounded-full dark:bg-dark sm:mx-1"
+            <motion.a href="https://github.com/MauroDietze" target={"_blank"} rel="noreferrer" className="w-6 mr-3 bg-light rounded-full dark:bg-dark sm:mx-1"
             whileHover={{y:-2}}
             whileTap={{scale:0.9}}
             >
               <GithubIcon/>
             </motion.a>
-            <motion.a href="https://www.linkedin.com/in/mauro-dietze/" target={"_blank"} className="w-6 mx-3 sm:mx-1 bg-light rounded-full"
+            <motion.a href="https://www.linkedin.com/in/mauro-dietze/" target={"_blank"} rel="noreferrer" className="w-6 mx-3 sm:mx-1 bg-light rounded-full"
             whileHover={{y:-2}}
             whileTap={{scale:0.9}}
             >
               <LinkedInIcon/>
             </motion.a>
-            {/* <motion.a href="https://pinterest.com" target={"_blank"} className="w-6 mx-3 sm:mx-1 dark:bg-light rounded-full"
+            {/* <motion.a href="https://pinterest.com" target={"_blank"} rel="noreferrer" className="w-6 mx-3 sm:mx-1 dark:bg-light rounded-full"
             whileHover={{y:-2}}
             whileTap={{scale:0.9}}
             >
               <PinterestIcon/>
             </motion.a>
-            <motion.a href="https://dribble.com" target={"_blank"} className="w-6 ml-3 sm:mx-1"
+            <motion.a href="https://dribble.com" target={"_blank"} rel="noreferrer" className="w-6 ml-3 sm:mx-1"
             whileHover={{y:-2}}
             whileTap={{scale:0.9}}
             >

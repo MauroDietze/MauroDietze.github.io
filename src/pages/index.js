@@ -43,7 +43,7 @@ export default function Home() {
                 {l.text}
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
-                <Link href="/dummy.pdf" target={"_blank"}
+                <Link passHref href="/dummy.pdf" target={"_blank"} rel="noreferrer"
                 className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold
                 border-2 border-solid border-transparent 
                 dark:bg-light dark:text-dark
@@ -51,7 +51,7 @@ export default function Home() {
                 dark:hover:border-light dark:hover:bg-dark dark:hover:text-light md:p-2 md:px-2 md:text-base' download={true}
                 >{l.resButton}<LinkArrow className={"w-6 ml-1"}/>
                 </Link>
-                <Link href="mailto:mauroid123@gmail.com" 
+                <Link passHref href="mailto:mauroid123@gmail.com" 
                 className='ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base'
                 >{l.conButton}</Link>
               </div>

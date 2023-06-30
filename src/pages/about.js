@@ -38,7 +38,7 @@ const AnimatedNumbers = ({value}) => {
 }
 
 
-const about = () => {
+const About = () => {
   const { asPath, locale, locales} = useRouter();
   const l = locale === 'en-US' ? PagesTexts.en.about : PagesTexts.es.about;
   return (
@@ -102,4 +102,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About

@@ -15,10 +15,10 @@ const Footer = () => {
           <span className={new Date().getFullYear()}> &copy; {l.all}</span>
           <div className='flex items-center lg:py-2'>
             {l.build} <span className='text-primary dark:text-primaryDark text-2xl px-1'>&#9825;</span>
-            {l.by}&nbsp;<Link href="/" className='underline underline-offset-2'
-            target={"_blank"}>Mauro Dietze</Link>
+            {l.by}&nbsp;<Link passHref href="/" className='underline underline-offset-2'
+            target={"_blank"} rel="noreferrer">Mauro Dietze</Link>
           </div>
-          <Link href="https://devdreaming.com" className='underline underline-offset-2' target={"_blank"}>{l.say}</Link>
+          <Link passHref href="https://devdreaming.com" className='underline underline-offset-2' target={"_blank"} rel="noreferrer">{l.say}</Link>
             
         </Layout>
     </footer>
