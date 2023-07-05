@@ -13,10 +13,10 @@ import { useTranslation } from 'next-export-i18n';
           <span className={new Date().getFullYear()}> &copy; {t('footer.all')}</span>
           <div className='flex items-center lg:py-2'>
             {t('footer.build')} <span className='text-primary dark:text-primaryDark text-2xl px-1'>&#9825;</span>
-            {t('footer.by')}&nbsp;<Link passHref href="/" className='underline underline-offset-2'
+            {t('footer.by')}&nbsp;<Link href="/" className='underline underline-offset-2'
             target={"_blank"} rel="noreferrer">Mauro Dietze</Link>
           </div>
-          <Link passHref href={"mailto:mauroid123@gmail.com"} className='underline underline-offset-2' target={"_blank"} rel="noreferrer">{t('footer.say')}</Link>
+          <Link href={"mailto:mauroid123@gmail.com"} className='underline underline-offset-2' target={"_blank"} rel="noreferrer">{t('footer.say')}</Link>
             
         </Layout>
     </footer>

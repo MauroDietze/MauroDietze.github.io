@@ -42,7 +42,7 @@ export default function Home() {
                 {t('home.text')}
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
-                <Link passHref href="/dummy.pdf" target={"_blank"} rel="noreferrer"
+                <Link href="/CV - Mauro dietze.pdf" target={"_blank"} rel="noreferrer"
                 className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold
                 border-2 border-solid border-transparent 
                 dark:bg-light dark:text-dark

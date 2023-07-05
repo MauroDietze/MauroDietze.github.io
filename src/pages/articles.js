@@ -33,7 +33,7 @@ const MovingImg = ({title, img, link}) => {
     }
 
     return(
-        <Link passHref href={link} target="_blank"
+        <Link href={link} target="_blank"
             onMouseMove={handleMouse}
             onMouseLeave={handleMouseLeave}
             >

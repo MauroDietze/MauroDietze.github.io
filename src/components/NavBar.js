@@ -81,7 +81,7 @@ const NavBar = () => {
           <CustomLink passHref href="/" title={t('navBar.home')} className="mr-4" />
           <CustomLink passHref href="/about" title={t('navBar.about')} className="mx-4" />
           <CustomLink passHref href="/projects" title={t('navBar.projects')} className="mx-4" />
-          {/* <CustomLink href="/articles" title={t('navBar.articles')} className="ml-4" /> */}
+          {/* <CustomLink passHref href="/articles" title={t('navBar.articles')} className="ml-4" /> */}
         </nav>
         
         <nav className="flex items-center justify-center flex-wrap">
@@ -132,22 +132,25 @@ const NavBar = () => {
         <motion.div
         initial={{scale:0, opacity:0, x: "-50%", y:"-50%" }}
         animate={{scale:1, opacity:1}}
-        className="min-w-[70vw] flex flex-col justify-between z-30 items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 
+        className="min-w-[70vw] flex flex-col justify-between z-30 items-center fixed top-1/2 left-1/2 
         bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32">
+          <div className="-translate-y-24">
+            <LenguageMenu />
+          </div>
           <nav className="flex items-center flex-col justify-center">
             <CustomMobileLink passHref href="/" title={t('navBar.home')} className="" toggle={handleClick}/>
             <CustomMobileLink passHref href="/about" title={t('navBar.about')} className="" toggle={handleClick}/>
             <CustomMobileLink passHref href="/projects" title={t('navBar.projects')} className="" toggle={handleClick}/>
-            {/* <CustomMobileLink href="/articles" title={t('navBar.articles')} className="" toggle={handleClick}/> */}
+            {/* <CustomMobileLink passHref href="/articles" title={t('navBar.articles')} className="" toggle={handleClick}/> */}
           </nav>
           
           <nav className="flex items-center justify-center flex-wrap mt-2">
-            {/* <motion.a href="https://twitter.com" target={"_blank"} rel="noreferrer" className="w-6 mr-3 sm:mx-1"
+            <motion.a href="https://www.linkedin.com/in/mauro-dietze/" target={"_blank"} rel="noreferrer" className="w-6 mr-3 sm:mx-1"
             whileHover={{y:-2}}
             whileTap={{scale:0.9}}
             >
               <TwitterIcon/>
-            </motion.a> */}
+            </motion.a>
             <motion.a href="https://github.com/MauroDietze" target={"_blank"} rel="noreferrer" className="w-6 mr-3 bg-light rounded-full dark:bg-dark sm:mx-1"
             whileHover={{y:-2}}
             whileTap={{scale:0.9}}
@@ -173,7 +176,7 @@ const NavBar = () => {
               <DribbbleIcon/>
             </motion.a> */}
             <button onClick={()=> setMode(mode === "light" ? "dark" : "light")}
-            className="ml-3 flex items-center justify-center rounded-full p-1 text-light  dark:text-dark">
+            className="ml-3 flex items-center justify-center rounded-full p-1 text-light dark:text-dark">
               {
                 mode === "dark" ?
                 <SunIcon />
@@ -184,7 +187,7 @@ const NavBar = () => {
         </motion.div> 
         : null
       }
-      <div className="p-5">
+      <div className="p-5 lg:hidden">
         <LenguageMenu />
       </div>
       <div className="absolute left-[50%] top-2 translate-x-[-50%] sm:mx-1">
