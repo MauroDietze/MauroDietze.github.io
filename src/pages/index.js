@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import Head from 'next/head'
-import { useRouter } from 'next/router'
 
 import Layout from '@/components/Layout'
 import profilePic from '../../public/images/profile/developer-pic.png'
@@ -10,14 +9,14 @@ import { LinkArrow } from '@/components/Icons'
 import HearMe from '@/components/HearMe'
 import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg';
 import TransitionEffect from '@/components/transitionEffect'
-import PagesTexts from '../../public/Texts/PagesTexts'
+import { useTranslation, useLanguageQuery, LanguageSwitcher, getDefaultLanguage } from 'next-export-i18n'
 
 
 
 
 export default function Home() {
-  const { asPath, locale, locales} = useRouter();
-  const l = locale === 'en-US' ? PagesTexts.en.home : PagesTexts.es.home;
+  const { t } = useTranslation();
+  const [queryLanguage] = useLanguageQuery();
   
   return (
     <>
@@ -35,12 +34,12 @@ export default function Home() {
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"/>
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
-              <AnimatedText text={l.title}
+              <AnimatedText text={t('home.title')}
               className='!text-6xl !text-left
               xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:text-3xl
               '/>
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
-                {l.text}
+                {t('home.text')}
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link passHref href="/dummy.pdf" target={"_blank"} rel="noreferrer"
@@ -49,11 +48,11 @@ export default function Home() {
                 dark:bg-light dark:text-dark
                 hover:border-dark hover:bg-light hover:text-dark
                 dark:hover:border-light dark:hover:bg-dark dark:hover:text-light md:p-2 md:px-2 md:text-base' download={true}
-                >{l.resButton}<LinkArrow className={"w-6 ml-1"}/>
+                >{t('home.resButton')}<LinkArrow className={"w-6 ml-1"}/>
                 </Link>
-                <Link passHref href="mailto:mauroid123@gmail.com" 
+                <Link passHref  href={{ pathname: "mailto:mauroid123@gmail.com", query: queryLanguage  }} 
                 className='ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base'
-                >{l.conButton}</Link>
+                >{t('home.conButton')}</Link>
               </div>
             </div>
           </div>

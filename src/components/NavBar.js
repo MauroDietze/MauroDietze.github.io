@@ -5,8 +5,8 @@ import {TwitterIcon, GithubIcon , LinkedInIcon, PinterestIcon, DribbbleIcon, Sun
 import { useRouter } from "next/router";
 import {motion} from "framer-motion"
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
-import PagesTexts from "../../public/Texts/PagesTexts";
 import LenguageMenu from "./LenguageMenu";
+import { useTranslation, useLanguageQuery, LanguageSwitcher, getDefaultLanguage } from 'next-export-i18n'
 
 const CustomLink = ({ href, title, className = "" }) => {
   const router = useRouter();
@@ -23,7 +23,7 @@ const CustomLink = ({ href, title, className = "" }) => {
         className={`
       h-[1px] inline-block bg-dark absolute left-0 -bottom-0.5 
       group-hover:w-full transition-[width] ease duration-300 
-      ${router.asPath === href ? "w-full" : "w-0"} 
+      ${router.route === href ? "w-full" : "w-0"} 
       dark:bg-light`}
       >
         &nbsp;
@@ -48,7 +48,7 @@ const CustomMobileLink = ({ href, title, className = "", toggle }) => {
         className={`
       h-[1px] inline-block bg-dark absolute left-0 -bottom-0.5  
       group-hover:w-full transition-[width] ease duration-300 
-      ${router.asPath === href ? "w-full" : "w-0"} 
+      ${router.route === href ? "w-full" : "w-0"} 
       dark:bg-dark`}
       >
         &nbsp;
@@ -65,9 +65,8 @@ const NavBar = () => {
     setIsOpen(!isOpen);
   }
 
-  const { asPath, locale, locales} = useRouter();
-  const l = locale === 'en-US' ? PagesTexts.en.navBar : PagesTexts.es.navBar;
-
+  const { t } = useTranslation();
+  
   return (
     <header className="w-full px-32 py-8 font-medium flex items-center justify-between dark:bg-blue 
     dark:text-light relative z-10 lg:px-16 md:px-12 sm:px-8">
@@ -79,19 +78,19 @@ const NavBar = () => {
 
       <div className="w-full flex justify-between items-center lg:hidden">
         <nav>
-          <CustomLink passHref href="/" title={l.home} className="mr-4" />
-          <CustomLink passHref href="/about" title={l.about} className="mx-4" />
-          <CustomLink passHref href="/projects" title={l.projects} className="mx-4" />
-          {/* <CustomLink href="/articles" title={l.articles} className="ml-4" /> */}
+          <CustomLink passHref href="/" title={t('navBar.home')} className="mr-4" />
+          <CustomLink passHref href="/about" title={t('navBar.about')} className="mx-4" />
+          <CustomLink passHref href="/projects" title={t('navBar.projects')} className="mx-4" />
+          {/* <CustomLink href="/articles" title={t('navBar.articles')} className="ml-4" /> */}
         </nav>
         
         <nav className="flex items-center justify-center flex-wrap">
-          {/* <motion.a href="https://twitter.com" target={"_blank"} rel="noreferrer" className="w-6 mr-3"
+          <motion.a href="https://twitter.com/Mauroido" target={"_blank"} rel="noreferrer" className="w-6 mr-3"
           whileHover={{y:-2}}
           whileTap={{scale:0.9}}
           >
             <TwitterIcon/>
-          </motion.a> */}
+          </motion.a>
           <motion.a href="https://github.com/MauroDietze" target={"_blank"} rel="noreferrer" className="w-6 mr-3"
           whileHover={{y:-2}}
           whileTap={{scale:0.9}}
@@ -136,10 +135,10 @@ const NavBar = () => {
         className="min-w-[70vw] flex flex-col justify-between z-30 items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 
         bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32">
           <nav className="flex items-center flex-col justify-center">
-            <CustomMobileLink passHref href="/" title={l.home} className="" toggle={handleClick}/>
-            <CustomMobileLink passHref href="/about" title={l.about} className="" toggle={handleClick}/>
-            <CustomMobileLink passHref href="/projects" title={l.projects} className="" toggle={handleClick}/>
-            {/* <CustomMobileLink href="/articles" title={l.articles} className="" toggle={handleClick}/> */}
+            <CustomMobileLink passHref href="/" title={t('navBar.home')} className="" toggle={handleClick}/>
+            <CustomMobileLink passHref href="/about" title={t('navBar.about')} className="" toggle={handleClick}/>
+            <CustomMobileLink passHref href="/projects" title={t('navBar.projects')} className="" toggle={handleClick}/>
+            {/* <CustomMobileLink href="/articles" title={t('navBar.articles')} className="" toggle={handleClick}/> */}
           </nav>
           
           <nav className="flex items-center justify-center flex-wrap mt-2">

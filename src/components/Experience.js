@@ -1,8 +1,7 @@
 import React, { useRef } from 'react'
 import { motion, useScroll } from 'framer-motion'
 import { LiIcon } from './LiIcon'
-import { useRouter } from 'next/router'
-import PagesTexts from '../../public/Texts/PagesTexts'
+import { useTranslation } from 'next-export-i18n'
 
 const Details = ({position, company, companyLink, time, address, work}) => {
     const ref = useRef(null)
@@ -35,28 +34,26 @@ export const Experience = () => {
         }
     )
 
-    const { asPath, locale, locales} = useRouter();
-    const l = locale === 'en-US' ? PagesTexts.en.about.experience : PagesTexts.es.about.experience;
+    const { t } = useTranslation();
 
   return (
     <div className='my-64'>
         <h2 className='font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16'>
-            {l.title}
+            {t('about.experience.title')}
         </h2>
         <div ref={ref} className='w-[75%] mx-auto relative lg:w-[90%] md:w-full'>
         <motion.div 
         style={{scaleY: scrollYProgress}}
         className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]'/>
             <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
-                <Details position={l.job1.position} company={l.job1.company} time={l.job1.time} address={l.job1.address}
-                companyLink={l.job1.companyLink} work={l.job1.work}/> 
-                <Details position={l.job2.position} company={l.job2.company} time={l.job2.time} address={l.job2.address}
-                companyLink={l.job2.companyLink} work={l.job2.work}/>
-                <Details position={l.job3.position} company={l.job3.company} time={l.job3.time} address={l.job3.address}
-                companyLink={l.job3.companyLink} work={l.job3.work}/>
+                <Details position={t('about.experience.job1.position')} company={t('about.experience.job1.company')} time={t('about.experience.job1.time')} address={t('about.experience.job1.address')}
+                companyLink={t('about.experience.job1.companyLink')} work={t('about.experience.job1.work')}/> 
+                <Details position={t('about.experience.job2.position')} company={t('about.experience.job2.company')} time={t('about.experience.job2.time')} address={t('about.experience.job2.address')}
+                companyLink={t('about.experience.job2.companyLink')} work={t('about.experience.job2.work')}/>
+                <Details position={t('about.experience.job3.position')} company={t('about.experience.job3.company')} time={t('about.experience.job3.time')} address={t('about.experience.job3.address')}
+                companyLink={t('about.experience.job3.companyLink')} work={t('about.experience.job3.work')}/>
             </ul>
         </div>
-    
     </div>
   )
 }

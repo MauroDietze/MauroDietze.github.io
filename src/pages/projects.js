@@ -8,15 +8,14 @@ import React from 'react'
 import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg"
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/transitionEffect'
-import { useRouter } from 'next/router'
-import PagesTexts from '../../public/Texts/PagesTexts'
+import { useTranslation } from 'next-export-i18n'
 
 const FramerImage = motion(Image);
 
 
 const Project  = ({type, title, img, link, github}) => {
-    const { asPath, locale, locales} = useRouter;
-    const l = locale === 'en-US' ? PagesTexts.en.projects : PagesTexts.es.projects;
+    const { t } = useTranslation();
+
     return (
         <article className='w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark bg-light
         p-6 relative dark:bg-dark dark:border-light xs:p-4'>
@@ -34,7 +33,7 @@ const Project  = ({type, title, img, link, github}) => {
                     <h2 className='my-2 w-full text-left text-3xl font-bold dark:text-light lg:text-2xl'>{title}</h2>
                 </Link>
                 <div className='w-full mt-2 flex items-center justify-between'>
-                    <Link passHref href={link} target="_blank" className='text-lg font-semibold underline md:text-base'>{l.button2}</Link>
+                    <Link passHref href={link} target="_blank" className='text-lg font-semibold underline md:text-base'>{t('projects.button2')}</Link>
                     <Link passHref href={github} target="_blank" className="w-8 md:w-6"><GithubIcon/></Link>
                 </div>
             </div>
@@ -43,8 +42,8 @@ const Project  = ({type, title, img, link, github}) => {
     )
 }
 const FeaturedProject = ({type, title, summary, img, link, github}) => {
-    const { asPath, locale, locales} = useRouter;
-    const l = locale === 'en-US' ? PagesTexts.en.projects : PagesTexts.es.projects;
+    const { t } = useTranslation();
+
     return (
         <article className='w-full flex items-center justify-between rounded-3xl border border-solid border-dark bg-light 
         shadow2xl p-12 relative rounded-br-2xl dark:bg-dark dark:border-light 
@@ -67,7 +66,7 @@ const FeaturedProject = ({type, title, summary, img, link, github}) => {
                 <div className='mt-2 flex items-center'>
                     <Link passHref href={github} target="_blank" className="w-10"><GithubIcon/></Link>
                     <Link passHref href={link} target="_blank" className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg 
-                    font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base'>{l.button1}</Link>
+                    font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base'>{t('projects.button1')}</Link>
                 </div>
             </div>
         </article>
@@ -75,8 +74,8 @@ const FeaturedProject = ({type, title, summary, img, link, github}) => {
 }
 
 const Projects = () => {
-    const { asPath, locale, locales} = useRouter();
-    const l = locale === 'en-US' ? PagesTexts.en.projects : PagesTexts.es.projects;
+    const { t } = useTranslation();
+
   return (
     <>
         <Head>
@@ -86,31 +85,31 @@ const Projects = () => {
         <TransitionEffect/>
         <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
             <Layout className='pt-16'>
-                <AnimatedText text={l.title} className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs!text-4xl'/>
+                <AnimatedText text={t('projects.title')} className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs!text-4xl'/>
                 <div className='grid grid-cols-12 gap-24 gap-y-32 xs:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                     <div className='col-span-12'>
-                        <FeaturedProject title={l.project1.title} summary={l.project1.summary}
-                        link={l.project1.link} type={l.project1.type} github={l.project1.github} img={project1}/>
+                        <FeaturedProject title={t('projects.project1.title')} summary={t('projects.project1.summary')}
+                        link={t('projects.project1.link')} type={t('projects.project1.type')} github={t('projects.project1.github')} img={project1}/>
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
-                        <Project title={l.project1.title2} link={l.project1.link} 
-                        type={l.project1.type} github={l.project1.github} img={project1}/>
+                        <Project title={t('projects.project1.title2')} link={t('projects.project1.link')} 
+                        type={t('projects.project1.type')} github={t('projects.project1.github')} img={project1}/>
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
-                        <Project title={l.project1.title3} link={l.project1.link} 
-                        type={l.project1.type} github={l.project1.github} img={project1}/>
+                        <Project title={t('projects.project1.title3')} link={t('projects.project1.link')} 
+                        type={t('projects.project1.type')} github={t('projects.project1.github')} img={project1}/>
                     </div>
                     <div className='col-span-12'>
-                    <FeaturedProject title={l.project2.title} summary={l.project2.summary}
-                        link={l.project2.link} type={l.project2.type} github={l.project2.github} img={project1}/>
+                    <FeaturedProject title={t('projects.project2.title')} summary={t('projects.project2.summary')}
+                        link={t('projects.project2.link')} type={t('projects.project2.type')} github={t('projects.project2.github')} img={project1}/>
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
-                        <Project title={l.project2.title2} link={l.project2.link} 
-                        type={l.project2.type} github={l.project2.github} img={project1}/>
+                        <Project title={t('projectsproject2.title2.')} link={t('projects.project2.link')} 
+                        type={t('projects.project2.type')} github={t('projects.project2.github')} img={project1}/>
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
-                        <Project title={l.project2.title3} link={l.project2.link} 
-                        type={l.project2.type} github={l.project2.github} img={project1}/>
+                        <Project title={t('projects.project2.title3')} link={t('projects.project2.link')} 
+                        type={t('projects.project2.type')} github={t('projects.project2.github')} img={project1}/>
                     </div>
                 </div>
             </Layout>

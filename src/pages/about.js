@@ -10,8 +10,7 @@ import { Experience } from '@/components/Experience';
 import { Education } from '@/components/Education';
 import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg';
 import TransitionEffect from '@/components/transitionEffect';
-import { useRouter } from 'next/router';
-import PagesTexts from '../../public/Texts/PagesTexts';
+import { useTranslation } from 'next-export-i18n';
 
 const AnimatedNumbers = ({value}) => {
     const ref = useRef(null);
@@ -39,10 +38,10 @@ const AnimatedNumbers = ({value}) => {
 
 
 const About = () => {
-  const { asPath, locale, locales} = useRouter();
-  const l = locale === 'en-US' ? PagesTexts.en.about : PagesTexts.es.about;
+  const { t } = useTranslation();
+
   return (
-    <>{/*{l.titleH}*/}
+    <>{/*{t('about.')titleH}*/}
         <Head>
             <title>Mauro Dietze | About Page </title> 
             <meta name='description' content="any description" />
@@ -50,18 +49,18 @@ const About = () => {
         <TransitionEffect/>
         <main className='flex w-full flex-col items-center justify-center dark:text-light '>
             <Layout className='pt-16'>
-                <AnimatedText text={l.title} className='mb-16 lg:!text-7xl sm:!text-6xl sm:mb-8 xs:text-4xl'/>
+                <AnimatedText text={t('about.title')} className='mb-16 lg:!text-7xl sm:!text-6xl sm:mb-8 xs:text-4xl'/>
                 <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                     <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
-                        <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>{l.subTitle}</h2>
+                        <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>{t('about.subTitle')}</h2>
                         <p className='font-medium'>
-                        {l.text1}
+                        {t('about.text1')}
                         </p>
                         <p className='my-4 font-medium'>
-                        {l.text2}
+                        {t('about.text2')}
                         </p>
                         <p className='font-medium'>
-                        {l.text3}
+                        {t('about.text3')}
                         </p>
                     </div>
                     <div className='col-span-3 relative rounded-2xl border-2 border-solid border-dark
@@ -74,19 +73,19 @@ const About = () => {
                             <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                                 <AnimatedNumbers value={2}/>+
                             </span>
-                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>{l.sidebar1}</h2>
+                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>{t('about.sidebar1')}</h2>
                         </div>
                         <div className='flex flex-col items-end justify-center xl:items-center'>
                             <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                             <AnimatedNumbers value={4}/>+
                             </span>
-                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>{l.sidebar2}</h2>
+                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>{t('about.sidebar2')}</h2>
                         </div>
                         <div className='flex flex-col items-end justify-center xl:items-center'>
                             <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                             <AnimatedNumbers value={3}/>+
                             </span>
-                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>{l.sidebar3}</h2>
+                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>{t('about.sidebar3')}</h2>
                         </div>
                     </div>
                 </div>

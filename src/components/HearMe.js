@@ -1,12 +1,11 @@
 import React from 'react'
 import { CircularText } from './Icons'
 import Link from 'next/link'
-import { useRouter } from 'next/router';
-import PagesTexts from '../../public/Texts/PagesTexts';
+import { useTranslation } from 'next-export-i18n';
 
 const HearMe = () => {
-  const { asPath, locale, locales} = useRouter();
-  const l = locale === 'en-US' ? PagesTexts.en.hearMe : PagesTexts.es.hearMe;
+  const { t } = useTranslation();
+
   return (
     <div className='fixed left-4 bottom-4 flex items-cente justify-center overflow-hidden 
     md:right-8 md:left-auto md:top-0 md:bottom-auto md:absolute sm:right-0'>
@@ -17,7 +16,7 @@ const HearMe = () => {
             w-20 h-20 rounded-full font-semibold hover:bg-light hover:text-dark
             dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
             md:w-12 md:h-12 md:text-[10px]'>
-                {l.hear}
+                {t('hearMe.hear')}
                 
             </Link>
 

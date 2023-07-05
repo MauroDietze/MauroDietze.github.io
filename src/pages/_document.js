@@ -1,11 +1,8 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-import { useRouter } from 'next/router'
 
 export default function Document() {
-  const { asPath, locale, locales} = useRouter;
-  const l = locale === 'en-US' ? "en" : "es";
   return (
-    <Html lang={l}>
+    <Html lang="es">
       <Head />
       <body>
         <Main />

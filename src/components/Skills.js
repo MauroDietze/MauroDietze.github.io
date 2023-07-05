@@ -1,7 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion';
-import { useRouter } from 'next/router';
-import PagesTexts from '../../public/Texts/PagesTexts';
+import { useTranslation } from 'next-export-i18n';
 
 const Skill = ({name, x, y}) => {
     return (
@@ -19,11 +18,11 @@ const Skill = ({name, x, y}) => {
 }
 
 const Skills = () => {
-    const { asPath, locale, locales} = useRouter();
-    const l = locale === 'en-US' ? PagesTexts.en.about.skills : PagesTexts.es.about.skills;
+    const { t } = useTranslation();
+
     return (
         <>
-            <h2 className='font-bold text-8xl mt-64 w-full text-center md:text-6xl md:mt-32'>{l.title}</h2>
+            <h2 className='font-bold text-8xl mt-64 w-full text-center md:text-6xl md:mt-32'>{t('skills.title')}</h2>
             <div className='w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight dark:bg-circularDark
             lg:h-[80vh] sm:h-[60vh] xs:h-[50vh] 
             lg:bg-circularLightLg lg:dark:bg-circularDarkLg
