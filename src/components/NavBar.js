@@ -5,7 +5,7 @@ import {TwitterIcon, GithubIcon , LinkedInIcon, PinterestIcon, DribbbleIcon, Sun
 import { useRouter } from "next/router";
 import {motion} from "framer-motion"
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
-import LenguageMenu from "./LenguageMenu";
+import LanguageMenu from "./LanguageMenu";
 import { useTranslation, useLanguageQuery, LanguageSwitcher, getDefaultLanguage } from 'next-export-i18n'
 
 const CustomLink = ({ href, title, className = "" }) => {
@@ -135,7 +135,7 @@ const NavBar = () => {
         className="min-w-[70vw] flex flex-col justify-between z-30 items-center fixed top-1/2 left-1/2 
         bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32">
           <div className="-translate-y-24">
-            <LenguageMenu />
+            <LanguageMenu />
           </div>
           <nav className="flex items-center flex-col justify-center">
             <CustomMobileLink passHref href="/" title={t('navBar.home')} className="" toggle={handleClick}/>
@@ -188,7 +188,7 @@ const NavBar = () => {
         : null
       }
       <div className="p-5 lg:hidden">
-        <LenguageMenu />
+        <LanguageMenu />
       </div>
       <div className="absolute left-[50%] top-2 translate-x-[-50%] sm:mx-1">
         <Logo />
