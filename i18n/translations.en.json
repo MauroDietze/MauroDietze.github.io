@@ -83,7 +83,7 @@
             "title":"Portfolio AP",
             "title2":"Frontend",
             "title3":"Backend",
-            "summary":"Personal Portfolio designed for Argentina Programa: Frontend developed with Angular and Bootstrap. As Backend a Rest API built with SpringBoot implementing JWT and the database designed with MySQL Workbench. The whole project was migrated to my own server and built with docker where I use nginx to distribute the requests. Inspiring project where I learned a lot about DevOps and a lot about UX/UI",
+            "summary":"Personal Portfolio designed for Argentina Program: Frontend developed with Angular and Bootstrap. As Backend, a Rest API built with SpringBoot implementing JWT with a database designed in MySQL Workbench. The whole project was migrated to my own server and built with docker where I use nginx to distribute the requests. Inspiring project where I learned a lot about DevOps and a lot about UX/UI. When visiting the project, you will be able to see how the data stored in the database is displayed and verify the correct operation of the CRUD by logging in as an administrator with the user 'mauroid123@gmail.com' and the password 'helloworld', which will provide editing permissions.",
             "link":"http://192.168.0.11/portfolio",
             "type":"Featured Project",
             "frontgithub":"https://github.com/MauroDietze/FrontEndAngular.git",
