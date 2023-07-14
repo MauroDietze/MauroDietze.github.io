@@ -84,9 +84,10 @@
             "title2":"Frontend",
             "title3":"Backend",
             "summary":"Personal Portfolio: Front made with Next.js and Angular, Back made with SpringBoot and BD with MySQL Workbench",
-            "link":"/",
+            "link":"http://192.168.0.11/portfolio",
             "type":"Featured Project",
-            "github":"https://github.com/MauroDietze/FrontEndAngular.git",
+            "frontgithub":"https://github.com/MauroDietze/FrontEndAngular.git",
+            "backgithub":"https://github.com/MauroDietze/portfolio-BackEnd.git",
             "img1":"project1",
             "img2":"project1",
             "img3":"project1"
