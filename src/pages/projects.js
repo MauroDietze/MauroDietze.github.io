@@ -107,7 +107,7 @@ const Projects = () => {
                         link={t('projects.project2.link')} type={t('projects.project2.type')} github={t('projects.project2.github')} img={project1}/>
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
-                        <Project title={t('projectsproject2.title2.')} link={t('projects.project2.link')} 
+                        <Project title={t('projects.project2.title2')} link={t('projects.project2.link')} 
                         type={t('projects.project2.type')} github={t('projects.project2.github')} img={project1}/>
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
