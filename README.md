@@ -8,7 +8,7 @@ https://youtu.be/Yw7yWHigGKI <br />
 
 ### Resources Used in This Project
 
-- Profile image in the home page created by using [https://www.midjourney.com/](https://www.bing.com/images/create) tool.
+- Profile image in the home page created by using [https://www.bing.com/](https://www.bing.com/images/create) tool.
 - Profile image in the about page by [Juana Kahlo](https://www.instagram.com/juanakahlo/).
 - Fonts from https://fonts.google.com/ <br />
 - Icons from https://iconify.design/ <br />
