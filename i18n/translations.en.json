@@ -84,7 +84,7 @@
             "title2":"Frontend",
             "title3":"Backend",
             "summary":"Personal Portfolio designed for Argentina Programa: Frontend developed with Angular and Bootstrap. As Backend, a Rest API built with SpringBoot implementing JWT with a database designed in MySQL Workbench. The whole project was migrated to my own server and built with docker where I use nginx to distribute the requests. Inspiring project where I learned a lot about DevOps and a lot about UX/UI.",
-            "link":"http://192.168.0.11/portfolio",
+            "link":"http://181.46.20.14:8081/portfolio",
             "type":"Featured Project",
             "frontgithub":"https://github.com/MauroDietze/FrontEndAngular.git",
             "backgithub":"https://github.com/MauroDietze/portfolio-BackEnd.git",
