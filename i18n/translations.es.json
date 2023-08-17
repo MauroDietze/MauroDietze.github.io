@@ -85,7 +85,7 @@
             "title2":"Frontend",
             "title3":"Backend",
             "summary":"Portfolio Personal diseñado para Argentina Programa: Frontend desarrollado con Angular y Bootstrap. Como Backend una API Rest construida con SpringBoot implementando JWT con base de datos diseñada en MySQL Workbench. Todo el proyecto fue migrado a mi propio server y levantado con docker en donde utilizo nginx para distribuir las peticiones. Proyecto inspirador donde aprendí mucho sobre DevOps y otro tanto sobre UX/UI.",
-            "link":"http://181.46.20.14:8081/portfolio",
+            "link":"http://maurodietze.hopto.org/portfolio",
             "type":"Proyecto Destacado",
             "frontgithub":"https://github.com/MauroDietze/FrontEndAngular.git",
             "backgithub":"https://github.com/MauroDietze/portfolio-BackEnd.git",
