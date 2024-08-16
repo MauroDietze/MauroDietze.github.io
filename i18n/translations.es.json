@@ -9,7 +9,7 @@
     "footer":{
         "say":"¡Di hola!",
         "all":"Todos los Derechos Reservados.",
-        "build":"Creado con",
+        "build":"Creado ",
         "by":"por"
     },
     "home":{
@@ -36,7 +36,7 @@
         "experience":{
             "title":"Experiencia",
             "job1":{
-                "postion":"Web Developer",
+                "position":"Web Developer",
                 "company":"Autodidacta",
                 "time":"2020-Presente",
                 "address":"Buenos Aires, Argentina",
@@ -44,7 +44,7 @@
                 "work":"Trabajé en un equipo responsable del desarrollo de un Store-Fornt y su integración con Backend para comercio electrónico."
             },
             "job2":{
-                "postion":"Profesor de Computación",
+                "position":"Profesor de Computación",
                 "company":"ACE Institute",
                 "time":"2009-2019",
                 "address":"Buenos Aires, Argentina",
@@ -52,7 +52,7 @@
                 "work":"Enseñanza de Paquete de Office, Diseño y Desarrollo de paginas Web, AutoCAD, 3D Studio Max, Photoshop, Tango Gestión."
             },
             "job3":{
-                "postion":"Administrativo",
+                "position":"Administrativo",
                 "company":"Consultorio Kinesiológico",
                 "time":"2006-2008",
                 "address":"Buenos Aires, Argentina",

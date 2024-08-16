@@ -9,7 +9,7 @@
     "footer":{
         "say":"Say Hello!",
         "all":"All Rights Reserved.",
-        "build":"Build with",
+        "build":"Build ",
         "by":"By"
     },
     "home":{
@@ -35,7 +35,7 @@
         "experience":{
             "title":"Experience",
             "job1":{
-                "postion":"Web Developer",
+                "position":"Web Developer",
                 "company":"Solo",
                 "time":"2020-Present",
                 "address":"Buenos Aires, Argentina",
@@ -43,7 +43,7 @@
                 "work":"Worked on a team responsible for developing Store-Fornt and integration with Backend for ecommirce."
             },
             "job2":{
-                "postion":"computer teacher",
+                "position":"computer teacher",
                 "company":"ACE Institute",
                 "time":"2009-2019",
                 "address":"Buenos Aires, Argentina",
@@ -51,7 +51,7 @@
                 "work":"Teaching Office Package, Web page design and develop, AutoCAD, 3D Studio Max, Photoshop, Tango Gestión."
             },
             "job3":{
-                "postion":"Administrative",
+                "position":"Administrative",
                 "company":"Kinesiological Clinic",
                 "time":"2006-2008",
                 "address":"Buenos Aires, Argentina",
@@ -65,13 +65,13 @@
                 "type":"Biological Sciences Faculty",
                 "time":"2018-2020",
                 "place":"ISFDyT Nº103",
-                "info":""
+                "info":" "
             },
             "edu2":{
                 "type":"Degree in Cs. biological",
                 "time":"2009-2015",
                 "place":"UBA",
-                "info":""
+                "info":" "
             }
         }
     },
