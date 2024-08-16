@@ -190,9 +190,9 @@ const NavBar = () => {
       <div className="p-5 lg:hidden">
         <LanguageMenu />
       </div>
-      <div className="absolute left-[50%] top-2 translate-x-[-50%] sm:mx-1">
+      {/* <div className="absolute left-[50%] top-2 translate-x-[-50%] sm:mx-1">
         <Logo />
-      </div>
+      </div> */}
     </header>
   );
 };
