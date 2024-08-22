@@ -83,7 +83,7 @@ const Projects = () => {
     <>
         <Head>
             <title>Mauro Dietze | Projects Page</title>
-            <meta name='description' content="any description" />
+            <meta name='description' content="Projects Page" />
         </Head>
         <TransitionEffect/>
         <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
