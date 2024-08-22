@@ -9,6 +9,10 @@ import project1 from "../../public/images/projects/crypto-screener-cover-image.j
 import img1project1 from "../../public/images/projects/portfolio_front.png"
 import img2project1 from "../../public/images/projects/portfolio_back.png"
 import img3project1 from "../../public/images/projects/portfolio_frontgit.png"
+
+import img1project3 from "../../public/images/projects/JorgeJarquin1.png"
+import img2project3 from "../../public/images/projects/jorgejarquin.com_weddings.png"
+import img3project3 from "../../public/images/projects/JorgeJarquin3.png"
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/transitionEffect'
 import { useTranslation } from 'next-export-i18n'
@@ -23,12 +27,14 @@ const Project  = ({type, title, img, link, github}) => {
         <article className='w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark bg-light
         p-6 relative dark:bg-dark dark:border-light xs:p-4'>
             <div className='absolute top-0 -right-2 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl dark:bg-light md:-right-2 md:w-[102%] xs:h-[102%] xs:rounded-[1.5rem]'/>
-            <Link passHref href={link} target="_blank" className='w-full cursos-pointer overflow-hidden rounded-lg'>
-                <FramerImage src={img} alt={title} className='w-auto h-auto' 
-                whileHover={{scale:1.05}}
-                transition={{duration:0.2}}
-                priority 
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"/>
+            <Link passHref href={link} target="_blank" className='w-full cursor-pointer rounded-lg'>
+                <div className="w-full h-[300px] overflow-y-auto overflow-x-hidden rounded-lg"> {/* Ajusta la altura según necesites */}
+                    <FramerImage src={img} alt={title} className='w-auto h-auto' 
+                    whileHover={{scale:1.05}}
+                    transition={{duration:0.2}}
+                    priority 
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"/>
+                </div>
             </Link>
             <div className='w-full flex flex-col items-start justify-between mt-4'>
                 <span className='text-primary dark:text-primaryDark font-medium text-xl lg:text-lg md:text-base'>{type}</span>
@@ -44,6 +50,7 @@ const Project  = ({type, title, img, link, github}) => {
 
     )
 }
+
 const FeaturedProject = ({type, title, summary, img, link, github}) => {
     const { t } = useTranslation();
 
@@ -91,6 +98,32 @@ const Projects = () => {
                 <AnimatedText text={t('projects.title')} className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs!text-4xl'/>
                 <div className='grid grid-cols-12 gap-24 gap-y-32 xs:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                     <div className='col-span-12'>
+                        <FeaturedProject title={t('projects.project3.title')} summary={t('projects.project3.summary')}
+                        link={t('projects.project3.link')} type={t('projects.project3.type')} github={t('projects.project3.github')} img={img1project3}/>
+                    </div>
+                    <div className='col-span-6 sm:col-span-12'>
+                        <Project title={t('projects.project3.title2')} link={t('projects.project3.link')} 
+                        type={t('projects.project3.type')} github={t('projects.project3.frontgithub')} img={img3project3}/>
+                    </div>
+                    <div className='col-span-6 sm:col-span-12'>
+                        <Project title={t('projects.project3.title3')} link={t('projects.project3.link')} 
+                        type={t('projects.project3.type')} github={t('projects.project3.backgithub')} img={img2project3}/>
+                    </div>
+
+                    <div className='col-span-12'>
+                        <FeaturedProject title={t('projects.project2.title')} summary={t('projects.project2.summary')}
+                        link={t('projects.project2.link')} type={t('projects.project2.type')} github={t('projects.project2.github')} img={project1}/>
+                    </div>
+                    <div className='col-span-6 sm:col-span-12'>
+                        <Project title={t('projects.project2.title2')} link={t('projects.project2.link')} 
+                        type={t('projects.project2.type')} github={t('projects.project2.github')} img={project1}/>
+                    </div>
+                    <div className='col-span-6 sm:col-span-12'>
+                        <Project title={t('projects.project2.title3')} link={t('projects.project2.link')} 
+                        type={t('projects.project2.type')} github={t('projects.project2.github')} img={project1}/>
+                    </div>
+
+                    <div className='col-span-12'>
                         <FeaturedProject title={t('projects.project1.title')} summary={t('projects.project1.summary')}
                         link={t('projects.project1.link')} type={t('projects.project1.type')} github={t('projects.project1.github')} img={img1project1}/>
                     </div>
@@ -101,18 +134,6 @@ const Projects = () => {
                     <div className='col-span-6 sm:col-span-12'>
                         <Project title={t('projects.project1.title3')} link={t('projects.project1.link')} 
                         type={t('projects.project1.type')} github={t('projects.project1.backgithub')} img={img2project1}/>
-                    </div>
-                    <div className='col-span-12'>
-                    <FeaturedProject title={t('projects.project2.title')} summary={t('projects.project2.summary')}
-                        link={t('projects.project2.link')} type={t('projects.project2.type')} github={t('projects.project2.github')} img={project1}/>
-                    </div>
-                    <div className='col-span-6 sm:col-span-12'>
-                        <Project title={t('projects.project2.title2')} link={t('projects.project2.link')} 
-                        type={t('projects.project2.type')} github={t('projects.project2.github')} img={project1}/>
-                    </div>
-                    <div className='col-span-6 sm:col-span-12'>
-                        <Project title={t('projects.project2.title3')} link={t('projects.project2.link')} 
-                        type={t('projects.project2.type')} github={t('projects.project2.github')} img={project1}/>
                     </div>
                 </div>
             </Layout>

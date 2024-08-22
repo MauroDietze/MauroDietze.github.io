@@ -86,7 +86,7 @@
             "title3":"Backend",
             "summary":"Portfolio Personal diseñado para Argentina Programa: Frontend desarrollado con Angular y Bootstrap. Como Backend una API Rest construida con SpringBoot implementando JWT con base de datos diseñada en MySQL Workbench. Todo el proyecto fue migrado a mi propio server y levantado con docker en donde utilizo nginx para distribuir las peticiones. Proyecto inspirador donde aprendí mucho sobre DevOps y otro tanto sobre UX/UI.",
             "link":"http://maurodietze.hopto.org/portfolio/",
-            "type":"Proyecto Destacado",
+            "type":"",
             "frontgithub":"https://github.com/MauroDietze/FrontEndAngular.git",
             "backgithub":"https://github.com/MauroDietze/portfolio-BackEnd.git",
             "img1":"project1",
@@ -99,11 +99,23 @@
             "title3":"Backend",
             "summary":"Front construido con Next.js y Tailwind, Back hecho con Vendure y BD con PostgreSQL",
             "link":"/",
-            "type":"Proyecto Destacado",
+            "type":"",
             "github":"https://github.com/MartinRubio92/benitos.git",
             "img1":"project1",
             "img2":"project1",
             "img3":"project1"
+        },
+        "project3":{
+            "title":"Sitio Web Profesional para Fotógrafo de Bodas en WordPress",
+            "title2":"Portafolio Visual Impactante y Personalizado",
+            "title3":"Optimización para Captación de Clientes y Promociones",
+            "summary":"Desarrollé un sitio web en WordPress para un fotógrafo de bodas en Guatemala. El sitio no solo muestra su portafolio en forma de álbumes de bodas para los clientes, sino que también incluye herramientas para captar nuevos clientes mediante promociones y diversas opciones de contacto. Utilicé un tema personalizado y ajusté plugins para satisfacer las necesidades específicas del cliente, logrando una plataforma atractiva y funcional tanto en versiones de escritorio como móvil.",
+            "link":"https://jorgejarquin.com",
+            "type":"Proyecto Destacado",
+            "github":"https://github.com/camilo-tt/jorgejarquin-web.git",
+            "img1":"project3",
+            "img2":"project3",
+            "img3":"project3"
         }
     },
     "hearMe":{

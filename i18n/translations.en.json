@@ -103,6 +103,18 @@
             "img1":"project1",
             "img2":"project1",
             "img3":"project1"
+        },
+        "project3":{
+            "title":"Professional WordPress Wedding Photographer Website",
+            "title2":"Impactful and Personalized Visual Portfolio",
+            "title3":"Optimization for Customer Acquisition and Promotions",
+            "summary":"I developed a WordPress website for a wedding photographer in Guatemala. The site not only displays your portfolio in the form of wedding albums for clients, but also includes tools to attract new clients through promotions and various contact options. I used a custom theme and adjusted plugins to meet the client's specific needs, achieving an attractive and functional platform in both desktop and mobile versions.",
+            "link":"https://jorgejarquin.com",
+            "type":"Proyecto Destacado",
+            "github":"https://github.com/camilo-tt/jorgejarquin-web.git",
+            "img1":"project3",
+            "img2":"project3",
+            "img3":"project3"
         }
     },
     "hearMe":{
