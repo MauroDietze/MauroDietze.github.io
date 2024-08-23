@@ -36,48 +36,48 @@
         "experience":{
             "title":"Experiencia",
             "job1":{
-                "position":"Web Developer",
-                "company":"Autodidacta",
-                "time":"2020-Presente",
+                "position":"Desarrollador web",
+                "company":"TitanTech",
+                "time":"2023-2024",
                 "address":"Buenos Aires, Argentina",
-                "companyLink":"/",
-                "work":"Trabajé en un equipo responsable del desarrollo de un Store-Fornt y su integración con Backend para comercio electrónico."
+                "companyLink":"https://www.wearetitantech.com",
+                "work":"Desarrollo web en Wordpress, desarrollé un theme y addons, seguridad, SEO, servicio de mails, deploy en server, etc."
             },
             "job2":{
+                "position":"Desarrollador web Autodidacta.",
+                "company":"ACE Institute",
+                "time":"2021-2023",
+                "address":"Buenos Aires, Argentina",
+                "companyLink":"https://maurodietze.github.io",
+                "work":"Desarrollo de proyectos de softwere y diseño web: páginas dinámicas y estáticas: ecommirce, portfolio, etc."
+            },
+            "job3":{
                 "position":"Profesor de Computación",
                 "company":"ACE Institute",
-                "time":"2009-2019",
+                "time":"2006-2008",
                 "address":"Buenos Aires, Argentina",
                 "companyLink":"www.ace.com.ar",
                 "work":"Enseñanza de Paquete de Office, Diseño y Desarrollo de paginas Web, AutoCAD, 3D Studio Max, Photoshop, Tango Gestión."
-            },
-            "job3":{
-                "position":"Administrativo",
-                "company":"Consultorio Kinesiológico",
-                "time":"2006-2008",
-                "address":"Buenos Aires, Argentina",
-                "companyLink":"/",
-                "work":"Administración y Manejo de Paquete de Office."
             }
         },
         "education":{
             "title":"Educación",
             "edu1":{
-                "type":"Profesorado de Cs. Biológicas",
+                "type":"Desarrollo Web Full Stack",
                 "time":"2018-2020",
-                "place":"ISFDyT Nº103",
+                "place":"Argentina Programa",
                 "info":""
             },
             "edu2":{
-                "type":"Licenciatura en Cs. Biológicas",
-                "time":"2009-2015",
-                "place":"UBA",
+                "type":"",
+                "time":"",
+                "place":"",
                 "info":""
             }
         }
     },
     "projects":{
-        "title":"¡El Triunfo de la Imaginación!",
+        "title":"Concretizando Ideas",
         "button1":"Visitar Proyecto",
         "button2":"Visitar",
         "project1":{

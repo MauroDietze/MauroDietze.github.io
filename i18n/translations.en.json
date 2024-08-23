@@ -36,47 +36,47 @@
             "title":"Experience",
             "job1":{
                 "position":"Web Developer",
-                "company":"Solo",
-                "time":"2020-Present",
+                "company":"TitanTech",
+                "time":"2023-2024",
                 "address":"Buenos Aires, Argentina",
-                "companyLink":"/",
-                "work":"Worked on a team responsible for developing Store-Fornt and integration with Backend for ecommirce."
+                "companyLink":"https://www.wearetitantech.com",
+                "work":"Web development in Wordpress, development of themes and addons, security, SEO, email service, server deployment, etc."
             },
             "job2":{
+                "position":"Web Developer",
+                "company":"Freelance",
+                "time":"2021-2023",
+                "address":"Buenos Aires, Argentina",
+                "companyLink":"https://maurodietze.github.io",
+                "work":"Worked on a team responsible for developing Store-Fornt and integration with Backend for ecommirce."
+            },
+            "job3":{
                 "position":"computer teacher",
                 "company":"ACE Institute",
                 "time":"2009-2019",
                 "address":"Buenos Aires, Argentina",
                 "companyLink":"www.ace.com.ar",
                 "work":"Teaching Office Package, Web page design and develop, AutoCAD, 3D Studio Max, Photoshop, Tango Gestión."
-            },
-            "job3":{
-                "position":"Administrative",
-                "company":"Kinesiological Clinic",
-                "time":"2006-2008",
-                "address":"Buenos Aires, Argentina",
-                "companyLink":"/",
-                "work":"Management of Office Package."
             }
         },
         "education":{
             "title":"Education",
             "edu1":{
-                "type":"Biological Sciences Faculty",
+                "type":"Full Stack Web Developer",
                 "time":"2018-2020",
-                "place":"ISFDyT Nº103",
-                "info":" "
+                "place":"Argenitna Programa",
+                "info":""
             },
             "edu2":{
-                "type":"Degree in Cs. biological",
-                "time":"2009-2015",
-                "place":"UBA",
-                "info":" "
+                "type":"",
+                "time":"",
+                "place":"",
+                "info":""
             }
         }
     },
     "projects":{
-        "title":"Imagination Trumps Knowledge!",
+        "title":"Making it Real!",
         "button1":"Visit Project",
         "button2":"Visit",
         "project1":{
