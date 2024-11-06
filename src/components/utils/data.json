@@ -1,0 +1,85 @@
+{
+  "clients": 1,
+  "years": 3,
+  "experiences": [
+      {
+          "position_es": "Desarrollador Full Stack",
+          "position_en": "Full Stack Developer",
+          "company": "TitanTech",
+          "time": "Octubre 2023 - Actualidad",
+          "address": "Remoto",
+          "work_es": "Desarrollo de proyectos web completos, incluyendo aplicaciones dinámicas para Android, iOS y la web. Principalmente responsable del frontend, optimizando la experiencia del usuario.",
+          "work_en": "Full project development, including dynamic apps for Android, iOS, and the web. Main responsibility in frontend, optimizing user experience."
+      },
+      {
+          "position_es": "Desarrollador Web Autodidacta",
+          "position_en": "Self-taught Web Developer",
+          "company": "Freelance",
+          "time": "2021 - 2023",
+          "address": "Lomas de Zamora",
+          "work_es": "Desarrollé páginas web estáticas y dinámicas, como e-commerce y portfolios, utilizando herramientas modernas.",
+          "work_en": "Developed static and dynamic web pages, including e-commerce and portfolios, using modern tools."
+      }
+  ],
+  "educations": [
+      {
+          "type": "Desarrollo Web Full Stack",
+          "place": "Argentina Programa",
+          "time": "",
+          "info_es": "Programa de formación intensiva en desarrollo web full stack.",
+          "info_en": "Intensive training program in full stack web development."
+      },
+      {
+          "type": "Profesorado de Educación Tecnológica",
+          "place": "ISFDyT Nº103",
+          "time": "",
+          "info_es": "Formación en educación tecnológica.",
+          "info_en": "Education in technology teaching."
+      }
+  ],
+  "skills": [
+      {"name": "JavaScript", "iconComponent": "JsSkill", "experience": "1"},
+      {"name": "ReactJS", "iconComponent": "ReactLogo", "experience": "1"},
+      {"name": "NextJS", "iconComponent": "NextjsIcon", "experience": "1"},
+      {"name": "Wordpress", "iconComponent": "Wordpress", "experience": "1"},
+      {"name": "Python", "iconComponent": "Python", "experience": "1"},
+      {"name": "HTML", "iconComponent": "HTML", "experience": "1"},
+      {"name": "CSS", "iconComponent": "CSS", "experience": "1"},
+      {"name": "Docker", "iconComponent": "Docker", "experience": "1"}
+  ],
+  "links": {
+      "github": "https://github.com/MauroDietze",
+      "linkedin": "https://www.linkedin.com/in/mauro-dietze/"
+  },
+  "email": "mauro.dietze@gmail.com",
+  "projects_cant": 2,
+  "projects": [
+      {
+          "name": "Portfolio hecho con Spring para Argenitna Programa",
+          "descripcion_es": "Portfolio Personal diseñado para Argentina Programa: Frontend desarrollado con Angular y Bootstrap. Como Backend una API Rest construida con SpringBoot implementando JWT con base de datos diseñada en MySQL Workbench. Todo el proyecto fue migrado a mi propio server y levantado con docker en donde utilizo nginx para distribuir las peticiones. Proyecto inspirador donde aprendí mucho sobre DevOps y otro tanto sobre UX/UI.",
+          "descripcion_en": "A professional portfolio built with Next JS and Tailwind CSS. Built for easy updating.",
+          "image": "project_portfolio",
+          "type": "Project",
+          "github": "https://github.com/MauroDietze/portfolio",
+          "link": "https://maurodietze.github.io/"
+      },
+      {
+        "name": "Sitio Web para Fotógrafo de Bodas en WordPress",
+        "descripcion_es": "Desarrollé un sitio web en WordPress para un fotógrafo de bodas en Guatemala. El sitio no solo muestra su portafolio en forma de álbumes de bodas para los clientes, sino que también incluye herramientas para captar nuevos clientes mediante promociones y diversas opciones de contacto. Utilicé un tema personalizado y ajusté plugins para satisfacer las necesidades específicas del cliente, logrando una plataforma atractiva y funcional tanto en versiones de escritorio como móvil.",
+        "descripcion_en": "A professional portfolio built with Next JS and Tailwind CSS. Built for easy updating.",
+        "image": "project_portfolio",
+        "type": "Work Project",
+        "github": "https://github.com/camilo-tt/jorgejarquin-web.git",
+        "link": "https://jorgejarquin.com"
+    },
+    {
+        "name": "E-Commerce con Vendure",
+        "descripcion_es": "Front construido con Next.js y Tailwind, Back hecho con Vendure y BD con PostgreSQL",
+        "descripcion_en": "A professional portfolio built with Next JS and Tailwind CSS. Built for easy updating.",
+        "image": "project_portfolio",
+        "type": "Project",
+        "github": "https://github.com/MartinRubio92/benitos.git",
+        "link": "https://jorgejarquin.com"
+    }
+  ]
+}
