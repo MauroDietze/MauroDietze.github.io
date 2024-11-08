@@ -43,3 +43,8 @@ export { Python } from './shared/Icons/Skills/Python';
 export { ReactLogo } from './shared/Icons/Skills/ReactLogo';
 export { Tailwind } from './shared/Icons/Skills/Tailwind';
 export { Wordpress } from './shared/Icons/Skills/Wordpress';
+
+// Images
+export { default as jorgejarquin } from './shared/Images/jorgejarquin.com.png';
+export { default as ecommerceImage} from './shared/Images/ecommerce_image.png';
+export { default as portfolioImage} from './shared/Images/portfolio_front2.png';

@@ -55,31 +55,31 @@
   "projects_cant": 2,
   "projects": [
       {
-          "name": "Portfolio hecho con Spring para Argenitna Programa",
-          "descripcion_es": "Portfolio Personal diseñado para Argentina Programa: Frontend desarrollado con Angular y Bootstrap. Como Backend una API Rest construida con SpringBoot implementando JWT con base de datos diseñada en MySQL Workbench. Todo el proyecto fue migrado a mi propio server y levantado con docker en donde utilizo nginx para distribuir las peticiones. Proyecto inspirador donde aprendí mucho sobre DevOps y otro tanto sobre UX/UI.",
-          "descripcion_en": "A professional portfolio built with Next JS and Tailwind CSS. Built for easy updating.",
-          "image": "project_portfolio",
-          "type": "Project",
-          "github": "https://github.com/MauroDietze/portfolio",
-          "link": "https://maurodietze.github.io/"
-      },
-      {
         "name": "Sitio Web para Fotógrafo de Bodas en WordPress",
-        "descripcion_es": "Desarrollé un sitio web en WordPress para un fotógrafo de bodas en Guatemala. El sitio no solo muestra su portafolio en forma de álbumes de bodas para los clientes, sino que también incluye herramientas para captar nuevos clientes mediante promociones y diversas opciones de contacto. Utilicé un tema personalizado y ajusté plugins para satisfacer las necesidades específicas del cliente, logrando una plataforma atractiva y funcional tanto en versiones de escritorio como móvil.",
-        "descripcion_en": "A professional portfolio built with Next JS and Tailwind CSS. Built for easy updating.",
-        "image": "project_portfolio",
+        "descripcion_es": "Desarrollé un sitio web en WordPress para un fotógrafo de bodas en Guatemala, bajo la supervición de Titan Tech. El sitio no solo muestra su portafolio en forma de álbumes de bodas para los clientes, sino que también incluye herramientas para captar nuevos clientes mediante promociones y diversas opciones de contacto. Utilicé un tema personalizado y ajusté plugins para satisfacer las necesidades específicas del cliente, logrando una plataforma atractiva y funcional tanto en versiones de escritorio como móvil.",
+        "descripcion_en": "I developed a WordPress website for a wedding photographer in Guatemala, under the supervision of Titan Tech. The site not only displays your portfolio in the form of wedding albums for clients, but also includes tools to attract new clients through promotions and various contact options. I used a custom theme and adjusted plugins to meet the client's specific needs, achieving an attractive and functional platform in both desktop and mobile versions.",
+        "image": "jorgejarquin",
         "type": "Work Project",
         "github": "https://github.com/camilo-tt/jorgejarquin-web.git",
         "link": "https://jorgejarquin.com"
     },
     {
         "name": "E-Commerce con Vendure",
-        "descripcion_es": "Front construido con Next.js y Tailwind, Back hecho con Vendure y BD con PostgreSQL",
-        "descripcion_en": "A professional portfolio built with Next JS and Tailwind CSS. Built for easy updating.",
-        "image": "project_portfolio",
+        "descripcion_es": "e-commerce diseñado para ofrecer una experiencia de compra rápida y fluida. Construido con Next.js y Tailwind CSS en el frontend, el sitio es completamente responsive y garantiza una navegación optimizada tanto en dispositivos móviles como en escritorio. En el backend, emplea Vendure para la gestión de productos, inventario y pedidos, y se integra con PostgreSQL como base de datos, asegurando la fiabilidad y escalabilidad de la plataforma.",
+        "descripcion_en": "e-commerce designed to offer a fast and fluid purchasing experience. Built with Next.js and Tailwind CSS on the frontend, the site is fully responsive and ensures optimized navigation on both mobile and desktop devices. On the backend, it uses Vendure for product, inventory and order management, and integrates with PostgreSQL as a database, ensuring the reliability and scalability of the platform.",
+        "image": "ecommerceImage",
         "type": "Project",
         "github": "https://github.com/MartinRubio92/benitos.git",
         "link": "https://jorgejarquin.com"
+    },
+    {
+        "name": "Portfolio Personal para Argenitna Programa",
+        "descripcion_es": "Diseñado para Argentina Programa: Frontend desarrollado con Angular y Bootstrap. Como Backend una API Rest construida con SpringBoot implementando JWT con base de datos diseñada en MySQL Workbench. Todo el proyecto fue migrado a mi propio server y levantado con docker en donde utilizo nginx para distribuir las peticiones. Proyecto inspirador donde aprendí mucho sobre DevOps y otro tanto sobre UX/UI.",
+        "descripcion_en": "Designed for Argentina Programa: Frontend developed with Angular and Bootstrap. As Backend, a Rest API built with SpringBoot implementing JWT with a database designed in MySQL Workbench. The whole project was migrated to my own server and built with docker where I use nginx to distribute the requests. Inspiring project where I learned a lot about DevOps and a lot about UX/UI.",
+        "image": "portfolioImage",
+        "type": "Project",
+        "github": "https://github.com/MauroDietze/portfolio",
+        "link": "https://maurodietze.github.io/"
     }
   ]
 }
