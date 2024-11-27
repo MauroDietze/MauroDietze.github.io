@@ -31,7 +31,7 @@ export {default as LiIcon} from './shared/LiIcon'
 // Logos
 export { Android } from './shared/Icons/Skills/Android.jsx';
 export { CSS } from './shared/Icons/Skills/CSS';
-export { ECommerce } from './shared/Icons/Skills/ECommerce';
+export { Docker } from './shared/Icons/Skills/Docker';
 export { HTML } from './shared/Icons/Skills/HTML';
 export { Java } from './shared/Icons/Skills/Java';
 export { JsSkill } from './shared/Icons/Skills/Js';

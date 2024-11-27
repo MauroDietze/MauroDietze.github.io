@@ -5,3 +5,37 @@
 html {
     scroll-behavior: smooth;
 }
+
+/* Animación para mover las filas */
+@keyframes move-x {
+  0% {
+      transform: translateX(var(--move-x-from))
+  }
+
+  to {
+      transform: translateX(var(--move-x-to))
+  }
+}
+
+/* Por si necesitas valores por defecto */
+
+
+.animation-duration-1 {
+  animation-duration: 55s;
+}
+
+.animation-duration-2 {
+  animation-duration: 50s;
+}
+
+.animation-duration-3 {
+  animation-duration: 45s;
+}
+
+.animation-duration-4 {
+  animation-duration: 35s;
+}
+
+.group:hover .paused-on-hover {
+  animation-play-state: paused;
+}

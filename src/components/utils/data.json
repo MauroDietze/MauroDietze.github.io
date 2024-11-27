@@ -69,7 +69,7 @@
         "descripcion_en": "e-commerce designed to offer a fast and fluid purchasing experience. Built with Next.js and Tailwind CSS on the frontend, the site is fully responsive and ensures optimized navigation on both mobile and desktop devices. On the backend, it uses Vendure for product, inventory and order management, and integrates with PostgreSQL as a database, ensuring the reliability and scalability of the platform.",
         "image": "ecommerceImage",
         "type": "Project",
-        "github": "https://github.com/MartinRubio92/benitos.git",
+        "github": "https://github.com/villacentenariotech/front_ecommerce",
         "link": "https://jorgejarquin.com"
     },
     {

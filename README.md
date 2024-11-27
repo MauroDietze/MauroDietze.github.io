@@ -11,10 +11,10 @@ Puedes visitar el portafolio en el siguiente enlace:
 
 ## Acerca de Mí
 
-Soy un Desarrollador Full Stack con una sólida motivación para el aprendizaje continuo y más de 3 años de experiencia en tecnologías frontend y backend. Mi carrera incluye proyectos de desarrollo web y diseño de software enfocados en crear soluciones dinámicas y eficientes.
+Soy un Desarrollador Full Stack con una sólida motivación para el aprendizaje continuo y con experiencia en tecnologías frontend y backend. Mi carrera incluye proyectos de desarrollo web y diseño de software enfocados en crear soluciones dinámicas y eficientes.
 
-- **Años de experiencia:** 3  
-- **Clientes atendidos:** 1  
+- **Años de experiencia:** 2  
+- **Clientes atendidos:** 2  
 - **Posición actual:** Desarrollador Full Stack en TitanTech  
 - **Ubicación:** Lomas de Zamora, Buenos Aires (Remoto)
 
@@ -30,11 +30,6 @@ Algunas de las tecnologías con las que trabajo son:
 - **HTML/CSS**
 - **Docker**
 - **GitHub**
-
-## Proyectos
-
-### Portafolio Personal
-Un portafolio profesional diseñado para mostrar mi trabajo y habilidades. El proyecto utiliza **Next.js** y **Tailwind CSS** para garantizar una experiencia fluida en dispositivos móviles y de escritorio.
 
 ## Conéctate Conmigo
 

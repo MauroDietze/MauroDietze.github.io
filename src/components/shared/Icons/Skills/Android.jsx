@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const Android = () => (
-  <svg width="800px" height="800px" viewBox="-22.5 0 301 301" version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
+  <svg width="30px" height="30px" viewBox="-22.5 0 301 301" version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
     <g>
       <path d="M78.3890161,0.858476242 C76.9846593,0.871877584 75.5269206,1.21067383 74.1988355,1.94683705 C69.9813154,4.28464966 
       68.4344792,9.70448752 70.7705059,13.9187887 L80.2936432,31.1148585 C57.3501835,45.3109605 42.146676,69.5583356 42.146676,97.23264

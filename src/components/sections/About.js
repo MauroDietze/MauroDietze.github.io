@@ -4,6 +4,7 @@ import profilePic2 from "@/../public/images/profile/developer-picture.jpg"
 import { AnimatedNumbers } from '../utils/functions'
 import { AnimatedText, Experience, Education, Skills } from '@/components'
 import { useData } from '../context/DataContext'
+import Projects from '@/components/sections/Projects';
 
 const About = () => {
   const { data, translations } = useData();
@@ -32,7 +33,7 @@ const About = () => {
           bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8
         '>
           <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light' />
-          <Image src={profilePic2} alt="MartinRubio" className='w-full h-auto rounded-2xl'
+          <Image src={profilePic2} alt="Mauro Dietze Picture" className='w-full h-auto rounded-2xl'
             priority
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
           />
@@ -64,7 +65,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      
+      <Projects />
       <Skills skills={data.skills} />
       <Experience experiences={data.experiences} />
       <Education educations={data.educations} />
