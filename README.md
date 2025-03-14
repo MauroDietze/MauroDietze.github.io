@@ -1,22 +1,38 @@
-# Next.Js Website Tutorial: Create a Stunning Portfolio Website with Nextjs, Tailwind CSS and Framer-motion🌟
+# Mauro Dietze - Portfolio Profesional 2.0
 
-This repository contains personal Portfolio website created using NextJs. <br />
+![GitHub stars](https://img.shields.io/github/stars/MauroDietze/MauroDietze.github.io?style=social)&nbsp;&nbsp;
+![GitHub forks](https://img.shields.io/github/forks/MauroDietze/MauroDietze.github.io?style=social)&nbsp;&nbsp;
+![Github Followers](https://img.shields.io/github/followers/MauroDietze.svg?style=social&label=Follow)&nbsp;&nbsp;
 
-If you want to learn how to create it follow below tutorial: <br />
-https://youtu.be/Yw7yWHigGKI <br />
-[![YouTube Video Views](https://img.shields.io/youtube/views/Yw7yWHigGKI?style=social)](https://youtu.be/Yw7yWHigGKI)<br />
+Este es mi portafolio personal, construido con **Next.js**, **Tailwind CSS** y **Framer Motion**, que destaca mi experiencia como **Desarrollador Full Stack**. Aquí muestro mis habilidades y proyectos en tecnología.
 
-### Resources Used in This Project
+Puedes visitar el portafolio en el siguiente enlace:  
+[Ver Portafolio](https://maurodietze.github.io/)
 
-- Profile image in the home page created by using [https://www.bing.com/](https://www.bing.com/images/create) tool.
-- Profile image in the about page by [Juana Kahlo](https://www.instagram.com/juanakahlo/).
-- Fonts from https://fonts.google.com/ <br />
-- Icons from https://iconify.design/ <br />
-- LightBulb Svg from https://lukaszadam.com/illustrations <br />
+## Acerca de Mí
 
-### External Libraries used in this project:
+Soy un Desarrollador Full Stack con una sólida motivación para el aprendizaje continuo y con experiencia en tecnologías frontend y backend. Mi carrera incluye proyectos de desarrollo web y diseño de software enfocados en crear soluciones dinámicas y eficientes.
 
-- [framer-motion](https://www.framer.com/motion/) <br />
-- [Tailwind css](https://tailwindcss.com/) <br />
+- **Años de experiencia:** 3  
+- **Clientes atendidos:** 2  
+- **Posición actual:** Desarrollador Full Stack Freelance  
+- **Ubicación:** Lomas de Zamora, Buenos Aires (Remoto)
 
+## Tecnologías
 
+Algunas de las tecnologías con las que trabajo son:
+
+- **JavaScript**
+- **ReactJS**
+- **NextJS**
+- **Java**
+- **Python**
+- **HTML/CSS**
+- **Docker**
+- **GitHub**
+
+## Conéctate Conmigo
+
+- **GitHub:** [Mauro Dietze](https://github.com/MauroDietze)
+- **LinkedIn:** [Mauro Dietze](https://www.linkedin.com/in/mauro-dietze/)
+- **Email:** mauro.dietze@gmail.com
