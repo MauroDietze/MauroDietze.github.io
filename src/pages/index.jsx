@@ -24,8 +24,8 @@ export default function Home({ }) {
           <div className='fixed z-50 left-12 -translate-x-1/2 bottom-28'>
             <Logo />
           </div>
-          <Intro />
-          <About />
+          <Intro id="intro"/>
+          <About id="about"/>
         </Layout>
       </main>
     </>

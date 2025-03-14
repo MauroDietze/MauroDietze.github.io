@@ -17,9 +17,9 @@ const Skills = ({ skills }) => {
       />
       <div
         data-dark="true"
-        className="z-10 group-hover:[animation-play-state:paused] lg:col-span-2 w-full lg:rounded-tr-4xl overflow-hidden relative flex flex-col rounded-lg bg-white shadow-sm ring-1 ring-black/5 data-[dark]:bg-gray-800 data-[dark]:ring-white/15"
+        className="z-10 group-hover:[animation-play-state:paused] lg:col-span-2 w-full lg:rounded-tr-4xl overflow-hidden relative flex flex-col rounded-lg bg-white shadow-sm ring-1 ring-black/5 dark:bg-gray-800 dark:ring-white/15"
       >
-        <div className="relative parent-group h-full bg-gray-800 rounded-lg ring-1 ring-black/10">
+        <div className="relative parent-group h-full bg-white dark:bg-gray-800 rounded-lg ring-1 dark:ring-white/15 ring-black/5">
           {Array.from({ length: 4 }).map((_, rowIndex) => {
             const skillsPerRow = Math.ceil(skills.length / 4);
             const rowSkills = skills.slice(
@@ -34,8 +34,8 @@ const Skills = ({ skills }) => {
                 style={{ top: `${rowIndex * 25}%` }}
               >
                 {/* Líneas superior e inferior */}
-                <div className="absolute inset-x-0 top-1/2 h-0.5 bg-gradient-to-r from-white/15 from-[2px] to-[2px] bg-[length:12px_100%]"></div>
-                <div className="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-white/5 from-[2px] to-[2px] bg-[length:12px_100%] group-last:hidden"></div>
+                <div className="absolute inset-x-0 top-1/2 h-0.5 bg-gradient-to-r from-black/15 dark:from-white/15 from-[2px] to-[2px] bg-[length:12px_100%]"></div>
+                <div className="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-black/5 dark:from-white/5 from-[2px] to-[2px] bg-[length:12px_100%] group-last:hidden"></div>
 
                 {/* Íconos con animación */}
                 {rowSkills.map((skill, index) => (

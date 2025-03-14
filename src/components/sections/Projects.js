@@ -13,7 +13,7 @@ const Projects = () => {
   const { data, translations } = useData();
   
   return (
-    <section id="projects" className="scroll-smooth">
+    <section id="projects">
       <AnimatedText text={translations.TITLE_PROJECTS}
         className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'
       />

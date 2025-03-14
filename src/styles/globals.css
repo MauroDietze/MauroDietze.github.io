@@ -2,8 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    scroll-behavior: smooth;
+main {
+    scroll-behavior: smooth !important;
+    scroll-padding-top: 100px;
+}
+
+section {
+  position: relative !important;
 }
 
 /* Animación para mover las filas */

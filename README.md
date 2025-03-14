@@ -1,4 +1,4 @@
-# Mauro Dietze - Portfolio Profesional 🌟
+# Mauro Dietze - Portfolio Profesional 2.0
 
 ![GitHub stars](https://img.shields.io/github/stars/MauroDietze/portfolio?style=social)&nbsp;&nbsp;
 ![GitHub forks](https://img.shields.io/github/forks/MauroDietze/portfolio?style=social)&nbsp;&nbsp;
@@ -13,9 +13,9 @@ Puedes visitar el portafolio en el siguiente enlace:
 
 Soy un Desarrollador Full Stack con una sólida motivación para el aprendizaje continuo y con experiencia en tecnologías frontend y backend. Mi carrera incluye proyectos de desarrollo web y diseño de software enfocados en crear soluciones dinámicas y eficientes.
 
-- **Años de experiencia:** 2  
+- **Años de experiencia:** 3  
 - **Clientes atendidos:** 2  
-- **Posición actual:** Desarrollador Full Stack en TitanTech  
+- **Posición actual:** Desarrollador Full Stack Freelance  
 - **Ubicación:** Lomas de Zamora, Buenos Aires (Remoto)
 
 ## Tecnologías
