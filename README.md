@@ -1,7 +1,7 @@
 # Mauro Dietze - Portfolio Profesional 2.0
 
-![GitHub stars](https://img.shields.io/github/stars/MauroDietze/portfolio?style=social)&nbsp;&nbsp;
-![GitHub forks](https://img.shields.io/github/forks/MauroDietze/portfolio?style=social)&nbsp;&nbsp;
+![GitHub stars](https://img.shields.io/github/stars/MauroDietze/MauroDietze.github.io?style=social)&nbsp;&nbsp;
+![GitHub forks](https://img.shields.io/github/forks/MauroDietze/MauroDietze.github.io?style=social)&nbsp;&nbsp;
 ![Github Followers](https://img.shields.io/github/followers/MauroDietze.svg?style=social&label=Follow)&nbsp;&nbsp;
 
 Este es mi portafolio personal, construido con **Next.js**, **Tailwind CSS** y **Framer Motion**, que destaca mi experiencia como **Desarrollador Full Stack**. Aquí muestro mis habilidades y proyectos en tecnología.
