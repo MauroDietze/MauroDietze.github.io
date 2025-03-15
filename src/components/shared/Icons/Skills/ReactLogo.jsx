@@ -2,7 +2,9 @@ import React from 'react';
 
 export const ReactLogo = () => {
   return (
-    <svg width="30px" height="30px" 
+    <svg 
+      width="800px" 
+      height="800px" 
       viewBox="0 0 64 64" 
       xmlns="http://www.w3.org/2000/svg" 
       fillRule="evenodd" 

@@ -20,7 +20,7 @@ const Logo = () => {
 				}}
         onClick={scrollToTop}
       >
-        MD
+        MR
       </MotionButton>
     </div>
   );

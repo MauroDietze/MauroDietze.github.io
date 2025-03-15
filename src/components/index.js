@@ -31,7 +31,7 @@ export {default as LiIcon} from './shared/LiIcon'
 // Logos
 export { Android } from './shared/Icons/Skills/Android.jsx';
 export { CSS } from './shared/Icons/Skills/CSS';
-export { Docker } from './shared/Icons/Skills/Docker';
+export { ECommerce } from './shared/Icons/Skills/ECommerce';
 export { HTML } from './shared/Icons/Skills/HTML';
 export { Java } from './shared/Icons/Skills/Java';
 export { JsSkill } from './shared/Icons/Skills/Js';
@@ -42,9 +42,3 @@ export { NodeLogo } from './shared/Icons/Skills/NodeJs_v3';
 export { Python } from './shared/Icons/Skills/Python';
 export { ReactLogo } from './shared/Icons/Skills/ReactLogo';
 export { Tailwind } from './shared/Icons/Skills/Tailwind';
-export { Wordpress } from './shared/Icons/Skills/Wordpress';
-
-// Images
-export { default as jorgejarquin } from './shared/Images/jorgejarquin.com.png';
-export { default as ecommerceImage} from './shared/Images/ecommerce_image.png';
-export { default as portfolioImage} from './shared/Images/portfolio_front2.png';

@@ -1,29 +1,26 @@
-import React from 'react';
-import { Link as ScrollLink } from 'react-scroll';
+import React from 'react'
+import { useRouter } from 'next/router';
+import Link from 'next/link';
 
-const CustomLink = ({ href, title, className = "" }) => {
+const CustomLink = ({href, title, className=""}) => {
+  const router = useRouter();
+
   return (
-    <div className="group inline-block cursor-pointer">
-      <ScrollLink
-        to={href.replace('#', '')}
-        smooth={true}
-        duration={500}
-        className={`${className} relative`}
+    <Link href={href} scroll={false} className={`${className} relative group`}>
+      {title}
+      <span 
+        className={`
+          h-[1px] inline-bloc bg-dark
+          absolute left-0 -bottom-0.5
+          group-hover:w-full transition-[width] ease duration-300
+          ${router.asPath === href ? "w-full" : "w-0"} 
+          dark:bg-light
+        `}
       >
-        {title}
-        <span 
-          className={`
-            h-[1px] bg-dark
-            absolute left-0 -bottom-0.5
-            group-hover:w-full transition-[width] ease duration-300
-            w-0
-            dark:bg-light
-          `}
-        >
-        </span>
-      </ScrollLink>
-    </div>
-  );
-};
+        &nbsp;
+      </span>
+    </Link>
+  )
+}
 
 export default CustomLink;

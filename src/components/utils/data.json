@@ -1,76 +1,127 @@
 {
   "clients": 1,
-  "years": 3,
+  "years": 7,
   "experiences": [
-      {
-          "position_es": "Desarrollador Full Stack",
-          "position_en": "Full Stack Developer",
-          "company": "TitanTech",
-          "time": "Octubre 2023 - Actualidad",
-          "address": "Remoto",
-          "work_es": "Desarrollo de proyectos web completos, incluyendo aplicaciones dinámicas para Android, iOS y la web. Principalmente responsable del frontend, optimizando la experiencia del usuario.",
-          "work_en": "Full project development, including dynamic apps for Android, iOS, and the web. Main responsibility in frontend, optimizing user experience."
-      },
-      {
-          "position_es": "Desarrollador Web Autodidacta",
-          "position_en": "Self-taught Web Developer",
-          "company": "Freelance",
-          "time": "2021 - 2023",
-          "address": "Lomas de Zamora",
-          "work_es": "Desarrollé páginas web estáticas y dinámicas, como e-commerce y portfolios, utilizando herramientas modernas.",
-          "work_en": "Developed static and dynamic web pages, including e-commerce and portfolios, using modern tools."
-      }
-  ],
-  "educations": [
-      {
-          "type": "Desarrollo Web Full Stack",
-          "place": "Argentina Programa",
-          "time": "",
-          "info_es": "Programa de formación intensiva en desarrollo web full stack.",
-          "info_en": "Intensive training program in full stack web development."
-      },
-      {
-          "type": "Profesorado de Educación Tecnológica",
-          "place": "ISFDyT Nº103",
-          "time": "",
-          "info_es": "Formación en educación tecnológica.",
-          "info_en": "Education in technology teaching."
-      }
-  ],
-  "skills": [
-      {"name": "JavaScript", "iconComponent": "JsSkill", "experience": "1"},
-      {"name": "ReactJS", "iconComponent": "ReactLogo", "experience": "1"},
-      {"name": "NextJS", "iconComponent": "NextjsIcon", "experience": "1"},
-      {"name": "Wordpress", "iconComponent": "Wordpress", "experience": "1"},
-      {"name": "Python", "iconComponent": "Python", "experience": "1"},
-      {"name": "HTML", "iconComponent": "HTML", "experience": "1"},
-      {"name": "CSS", "iconComponent": "CSS", "experience": "1"},
-      {"name": "Docker", "iconComponent": "Docker", "experience": "1"}
-  ],
-  "links": {
-      "github": "https://github.com/MauroDietze",
-      "linkedin": "https://www.linkedin.com/in/mauro-dietze/"
-  },
-  "email": "mauro.dietze@gmail.com",
-  "projects_cant": 2,
-  "projects": [
-      {
-        "name": "Sitio Web para Fotógrafo de Bodas en WordPress",
-        "descripcion_es": "Desarrollé un sitio web en WordPress para un fotógrafo de bodas en Guatemala, bajo la supervición de Titan Tech. El sitio no solo muestra su portafolio en forma de álbumes de bodas para los clientes, sino que también incluye herramientas para captar nuevos clientes mediante promociones y diversas opciones de contacto. Utilicé un tema personalizado y ajusté plugins para satisfacer las necesidades específicas del cliente, logrando una plataforma atractiva y funcional tanto en versiones de escritorio como móvil.",
-        "descripcion_en": "I developed a WordPress website for a wedding photographer in Guatemala, under the supervision of Titan Tech. The site not only displays your portfolio in the form of wedding albums for clients, but also includes tools to attract new clients through promotions and various contact options. I used a custom theme and adjusted plugins to meet the client's specific needs, achieving an attractive and functional platform in both desktop and mobile versions.",
-        "image": "jorgejarquin",
-        "type": "Work Project",
-        "github": "https://github.com/camilo-tt/jorgejarquin-web.git",
-        "link": "https://jorgejarquin.com"
+    {
+      "position_es": "Desarrollador Frontend",
+      "position_en": "Frontend Developer",
+      "company": "Equila SRL",
+      "time": "2023-Actualidad",
+      "address": "remoto",
+      "work_es": "Estoy desarrollando una billetera virtual para Android, iOS y web, respaldada por Banco Formosa y Movilcash. Mi responsabilidad principal es el desarrollo frontend, asegurando que la experiencia del usuario sea óptima tanto en la web como en plataformas móviles. Utilizo tecnologías modernas y trabajo de manera colaborativa con el equipo para alcanzar los objetivos del proyecto.",
+      "work_en": "As a Full Stack Developer, I was responsible for the development of REST services, BPM processes, and web interfaces using technologies such as JavaScript, Handlebars, MySQL, MyBatis, and JBPM. I participated in the design and development of solutions for end-to-end management systems, working closely with the technical team to ensure code quality and software efficiency."
     },
     {
-        "name": "E-Commerce con Vendure",
-        "descripcion_es": "e-commerce diseñado para ofrecer una experiencia de compra rápida y fluida. Construido con Next.js y Tailwind CSS en el frontend, el sitio es completamente responsive y garantiza una navegación optimizada tanto en dispositivos móviles como en escritorio. En el backend, emplea Vendure para la gestión de productos, inventario y pedidos, y se integra con PostgreSQL como base de datos, asegurando la fiabilidad y escalabilidad de la plataforma.",
-        "descripcion_en": "e-commerce designed to offer a fast and fluid purchasing experience. Built with Next.js and Tailwind CSS on the frontend, the site is fully responsive and ensures optimized navigation on both mobile and desktop devices. On the backend, it uses Vendure for product, inventory and order management, and integrates with PostgreSQL as a database, ensuring the reliability and scalability of the platform.",
-        "image": "ecommerceImage",
-        "type": "Project",
-        "github": "https://github.com/villacentenariotech/front_ecommerce",
-        "link": "https://front-ecommerce-ashy.vercel.app/"
+      "position_es": "Desarrollador Full Stack",
+      "position_en": "Full Stack Developer",
+      "company": "Bizit Global",
+      "time": "2021-2023",
+      "address": "Córdoba - remoto",
+      "work_es": "Trabajé en el desarrollo de nuevas características para una plataforma de call center financiero, utilizando tecnologías como Java, Spring Boot, y Spring Batch. También contribuí al mantenimiento y mejora continua de la plataforma, asegurando su estabilidad y escalabilidad.",
+      "work_en": "I worked on developing new features for a financial call center platform, using technologies such as Java, Spring Boot, and Spring Batch. I also contributed to the maintenance and continuous improvement of the platform, ensuring its stability and scalability."
+    },
+    {
+      "position_es": "Líder Técnico",
+      "position_en": "Technical Leader",
+      "company": "IT Resources",
+      "time": "2018-2021",
+      "address": "Buenos Aires",
+      "work_es": "Durante mi etapa como Líder Técnico, supervisé al equipo de desarrollo en el proyecto para Swiss Medical, un sistema financiero que implementaba soluciones innovadoras para la gestión y atención al cliente. Además, trabajé en la creación de procesos batch utilizando Java, Spring Boot y Spring Batch, garantizando el cumplimiento de los requerimientos del cliente. Mi rol incluyó la planificación, coordinación y seguimiento de tareas para asegurar entregas de alta calidad dentro de los plazos estipulados.",
+      "work_en": "During my time as Technical Leader, I supervised the development team on the Swiss Medical project, a financial system that implemented innovative solutions for customer management and service. In addition, I worked on the creation of batch processes using Java, Spring Boot and Spring Batch, ensuring compliance with the client's requirements. My role included planning, coordinating and monitoring tasks to ensure high-quality deliveries within the stipulated deadlines."
+    },
+    {
+      "position_es": "Desarrollador Full Stack",
+      "position_en": "Full Stack Developer",
+      "company": "IT Resources",
+      "time": "2016-2021",
+      "address": "Buenos Aires",
+      "work_es": "Como Desarrollador Full Stack, fui responsable del desarrollo de servicios REST, procesos BPM y interfaces web utilizando tecnologías como JavaScript, Handlebars, MySQL, MyBatis, y JBPM. Participé en el diseño y desarrollo de soluciones para sistemas de gestión integral, trabajando estrechamente con el equipo técnico para garantizar la calidad del código y la eficiencia del software.",
+      "work_en": "As a Full Stack Developer, I was responsible for the development of REST services, BPM processes, and web interfaces using technologies such as JavaScript, Handlebars, MySQL, MyBatis, and JBPM. I participated in the design and development of solutions for end-to-end management systems, working closely with the technical team to ensure code quality and software efficiency."
+    }
+  ],
+  "educations": [
+    {
+      "type": "Ingeniería en Informática",
+      "place": "UNDAV (Universidad Nacional de Avellaneda)",
+      "time": "2013 – Actualidad",
+      "info_es": "Proximo a presentar la tesis.",
+      "info_en": "About to present the thesis."
+    },
+    {
+      "type": "Técnico Electrónico y Bachiller",
+      "place": "Instituto Tecnológico San Bonifacio",
+      "time": "2007 - 2010",
+      "info_es": "Colegio tecnico de muy buen nivel, donde empece a conocer sobre la programacion con PIC con Assembler y principios de C",
+      "info_en": "Very good technical school, where I began to learn about programming with PIC with Assembler and C principles."
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "iconComponent": "JsSkill",
+      "experience": "7",
+      "descripcion": ""
+    },
+    {
+      "name": "ReactJS",
+      "iconComponent": "ReactLogo",
+      "experience": "3",
+      "descripcion": ""
+    },
+    {
+      "name": "NextJS",
+      "iconComponent": "NextjsIcon",
+      "experience": "2",
+      "descripcion": ""
+    },
+    
+    {
+      "name": "Java",
+      "iconComponent": "Java",
+      "experience": "7",
+      "descripcion": ""
+    },
+    {
+      "name": "Python",
+      "iconComponent": "Python",
+      "experience": "3",
+      "descripcion": ""
+    },
+    {
+      "name": "HTML",
+      "iconComponent": "HTML",
+      "experience": "7",
+      "descripcion": ""
+    },
+    {
+      "name": "CSS",
+      "iconComponent": "CSS",
+      "experience": "7",
+      "descripcion": ""
+    },
+    {
+      "name": "Tailwind CSS",
+      "iconComponent": "Tailwind",
+      "experience": "2",
+      "descripcion": ""
+    }
+  ],
+  "links": {
+    "github": "https://github.com/MartinRubio92",
+    "linkedin": "https://www.linkedin.com/in/martin-rubio-242248162/",
+    "instagram": ""
+  },
+  "email": "martin.l.rubio92@gmail.com",
+  "projects_cant": 1,
+  "projects": [
+    {
+      "name": "Portfolio",
+      "descripcion_es": "Un portfolio profecional creado con NextJS y Tailwind CSS. Desarrollado para su facil actualización",
+      "descripcion_en": "A professional portfolio built with Next JS and Tailwind CSS. Built for easy updating",
+      "image": "project_portfolio",
+      "type": "Project",
+      "github": "https://github.com/MartinRubio92/portfolio",
+      "link": ""
     }
   ]
 }
