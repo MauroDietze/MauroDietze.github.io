@@ -14,7 +14,7 @@
     "eslint-config-next": "13.2.4",
     "fetch": "^1.1.0",
     "framer-motion": "^10.6.0",
-    "next": "14.2.10",
+    "next": "^14.2.24",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scroll": "^1.9.3"
