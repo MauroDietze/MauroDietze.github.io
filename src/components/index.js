@@ -43,6 +43,10 @@ export { Python } from './shared/Icons/Skills/Python';
 export { ReactLogo } from './shared/Icons/Skills/ReactLogo';
 export { Tailwind } from './shared/Icons/Skills/Tailwind';
 export { Wordpress } from './shared/Icons/Skills/Wordpress';
+export { Flask } from './shared/Icons/Skills/Flask';
+export { PostgreSQL } from './shared/Icons/Skills/PostgreSQL';
+export { Redis } from './shared/Icons/Skills/Redis';
+export { AWS } from './shared/Icons/Skills/AWS';
 
 // Images
 export { default as jorgejarquin } from './shared/Images/jorgejarquin.com.png';
