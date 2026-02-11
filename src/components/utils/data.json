@@ -8,8 +8,8 @@
       "company": "Gordian",
       "time": "Agosto 2023 - Actualidad",
       "address": "Remoto",
-      "work_es": "Desarrollo y mantenimiento de APIs versionadas con OpenAPI 3.0. Integraciones con proveedores GDS (Travelport, Sabre, Amadeus). Pipelines asíncronos con Celery + Redis. Automatización y scraping de datos.",
-      "work_en": "Development and maintenance of versioned APIs with OpenAPI 3.0. Integrations with GDS providers (Travelport, Sabre, Amadeus). Asynchronous pipelines with Celery + Redis. Data automation and scraping."
+      "work_es": "Desarrollo y mantenimiento de APIs versionadas. Integraciones con proveedores GDS. Automatización y scraping de datos.",
+      "work_en": "Development and maintenance of versioned APIs. Integrations with GDS providers. Data automation and scraping."
     },
     {
       "position_es": "Desarrollador Full Stack",
@@ -24,7 +24,7 @@
       "position_es": "Desarrollador Web Autodidacta",
       "position_en": "Self-taught Web Developer",
       "company": "Freelance",
-      "time": "2021",
+      "time": "2020",
       "address": "Lomas de Zamora",
       "work_es": "Desarrollé páginas web estáticas y dinámicas, como e-commerce y portfolios, utilizando herramientas modernas.",
       "work_en": "Developed static and dynamic web pages, including e-commerce and portfolios, using modern tools."
@@ -34,14 +34,14 @@
     {
       "type": "Desarrollo Web Full Stack",
       "place": "Argentina Programa",
-      "time": "",
+      "time": "2019",
       "info_es": "Programa de formación intensiva en desarrollo web full stack.",
       "info_en": "Intensive training program in full stack web development."
     },
     {
       "type": "Profesorado de Educación Tecnológica",
       "place": "ISFDyT Nº103",
-      "time": "",
+      "time": "2017",
       "info_es": "Formación en educación tecnológica.",
       "info_en": "Education in technology teaching."
     }
